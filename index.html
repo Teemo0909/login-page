@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+        
+    <div class="login-container">
+        
+            <div class="p-container">
+                <p>Welcome</p>
+            </div>
+
+            
+            <!-- แบบฟอร์ม -->
+            <form action="#">
+                
+                <!-- อธิบาย Email -->
+                <div class="mainp-email">
+                    <label id="P_email">Enter your usernmae or email</label>
+                </div>
+                
+                <!-- input email -->
+                <div class="user">
+                    <input type="text" id="User" placeholder="Usernmae">
+                </div>
+                
+
+                <!-- อธิบาย Pass -->
+                <div class="mainp-pass">
+                    <label id="P_Pass">Enter your password</label>
+                </div>
+                
+
+                <!-- input pass -->
+                <div class="pass">
+                    <input type="password" id="Password" placeholder="Password">
+                </div>
+            </form>
+    
+            <div class="api-container">
+                <div class="google">
+                    <i class="fa-brands fa-google" style="color: #0089ed;"></i>
+                    <p>Login with Google</p>
+                </div>
+
+                <div class="facebook">
+                    <i class="fa-brands fa-facebook" style="color: #0089ed;"></i>
+                    <p>Login with Facebook</p>
+                </div>
+            </div>
+
+
+            <!-- ปุ่มlogin -->
+            <div class="btn">
+                <button type="submit" onclick="Login()">Login</button>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="p-footer">
+                    <p>No Account ? <a href="Sign_up.html">Sign up</a></p>
+                </div>
+            </div>
+    
+    </div>
+
+
+    <!-- fontawe -->
+    <script src="https://kit.fontawesome.com/bb7a196dfb.js" crossorigin="anonymous"></script>
+    
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
